@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically on the page */
+    text-align: center;
+  }
+
+  .document-content {
+    max-width: 800px; /* Set maximum width for content */
+    padding: 20px; /* Add some padding to the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    background-color: #f9f9f9; /* Add a background color */
+  }

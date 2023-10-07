@@ -1,0 +1,22 @@
+<div class="projects-container">
+    <div class="row">
+        <h2>A selection of stuff I've built</h2>
+    </div>
+    <div class="row">
+    <div class="project-card " *ngFor="let project of projects">
+      <div class="card" (click)="flipCard(project)">
+        <div class="card-inner" [class.flipped]="project.flipped">
+          <div class="card-front">
+            <img [src]="project.image" alt="{{ project.name }}">
+            <h3 >{{ project.name }}</h3>
+          </div>
+          <div class="card-back">
+            <p>{{ project.description }}</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  

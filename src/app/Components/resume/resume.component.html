@@ -1,0 +1,7 @@
+<div class="container">
+    <button (click)="fetchDocumentContent()">Fetch Document Content</button>
+    <div *ngIf="documentContent" class="document-content">
+        <!-- Display the document content here -->
+        {{ documentContent | json }}
+    </div>
+</div>

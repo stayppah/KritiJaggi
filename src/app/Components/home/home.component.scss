@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.main-container {
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.row {
+    padding: 6rem 0 1rem !important;
+    text-align: left;
+}
+
+.written-body {
+    padding-top: 2.5rem !important;
+}
+
+.image-body img {
+    width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
