@@ -14,11 +14,11 @@ import { CommonModule } from '@angular/common';
 })
 export class ProjectsComponent {
   projects = [
-    { name: 'News generator', image: '../../assets/projectexample.png', description: 'Description of Project 1', flipped: false },
-    { name: 'Job Search Web Application', image: '../../assets/projectexample.png', description: 'Description of Project 2', flipped: false },
-    { name: 'Song Identification', image: '../../assets/projectexample.png', description: 'Description of Project 3', flipped: false },
-    { name: 'Tweet Event detection', image: '../../assets/projectexample.png', description: 'Description of Project 4', flipped: false },
-    { name: 'Tennis Data analysis', image: '../../assets/projectexample.png', description: 'Description of Project 5', flipped: false }
+    { name: 'News generator', image: 'docs/assets/projectexample.png', description: 'Description of Project 1', flipped: false },
+    { name: 'Job Search Web Application', image: 'docs/assets/projectexample.png', description: 'Description of Project 2', flipped: false },
+    { name: 'Song Identification', image: 'docs/assets/projectexample.png', description: 'Description of Project 3', flipped: false },
+    { name: 'Tweet Event detection', image: 'docs/assets/projectexample.png', description: 'Description of Project 4', flipped: false },
+    { name: 'Tennis Data analysis', image: 'docs/assets/projectexample.png', description: 'Description of Project 5', flipped: false }
     
   ];
 
